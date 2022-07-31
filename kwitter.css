@@ -1,0 +1,86 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: url("evangelion-blue-and-pink-color-scheme-wallpaper-1920×1080.jpg")
+}
+
+.header
+{
+	color: white;font-family: 'Fascinate', cursive;font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+h3{
+	font-family: 'Edu NSW ACT Foundation', cursive;
+}
+h4{
+	font-family: 'Edu NSW ACT Foundation', cursive;
+}
+#userNameLabel{
+	font-family: 'Square Peg', cursive;
+	font-size: 20px;
+}
+#login_button{
+	font-family: 'Square Peg', cursive;
+	background-color: rgb(165, 189, 255);
+	color: aliceblue;
+	font-size: 20px;
+}
+#footerDiv{
+	width: 100%;
+	height: 40px;
+	background-color: rgb(16, 38, 57);
+	position: fixed;
+	bottom:0 ;
+	color: beige;
+	font-family: 'Edu NSW ACT Foundation', cursive;
+}
