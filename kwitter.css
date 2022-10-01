@@ -4,6 +4,11 @@ html, body
   margin: 0;
 }
 
+h1{
+	font-family: 'Fascinate', cursive;
+	color:aliceblue;
+	font-size: 50px;
+}
 body
 {
 background-image: url("evangelion-blue-and-pink-color-scheme-wallpaper-1920×1080.jpg")
@@ -83,4 +88,25 @@ h4{
 	bottom:0 ;
 	color: beige;
 	font-family: 'Edu NSW ACT Foundation', cursive;
+}
+#body2{
+	background-image:url("49188-fantasy_art.jpg") ;
+}
+#addroom{
+	font-family: 'Square Peg', cursive;
+	background-color: rgb(165, 189, 255);
+	color: aliceblue;
+	font-size: 20px;
+}
+#logout{
+	font-family: 'Square Peg', cursive;
+	background-color: rgb(205, 116, 116);
+	color: aliceblue;
+	font-size: 20px;
+}
+label{
+	font-family: 'Square Peg', cursive;
+	font-size: 30px;
+	color:aliceblue;
+	
 }

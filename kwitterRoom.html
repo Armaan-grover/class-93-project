@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Kwitter Room</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Fascinate&family=Square+Peg&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="kwitter.css">
+    <script src="kwitterRoom.js"></script>
+
+</head>
+
+<body id="body2">
+    <div class="container">
+        <button id="logout" onclick="logoutUser()">Logout</button>
+        <center>
+            <h1>
+                Chattr (beta)
+                <sup>
+                    <img src="logo.png" class="logo">
+                </sup>
+            </h1>
+            <h3 id="welcome"></h3>
+            <div class="form-group input_div_room_page">
+
+                <label>#Add Room:</label>
+                <input class="form-control" id="roomName" placeholder="Type your room name here">
+            </div>
+            <button id="addroom" onclick="addRoom()">#Add Room</button>
+            <h3>#TRENDINGROOMS</h3>
+            <div id="output"></div>
+        </center>
+    </div>
+    <script src="kwitter_room.js"></script>
+</body>
+
+</html>
