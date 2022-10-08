@@ -39,13 +39,7 @@ function addRoom() {
     });
   }
 
-  function send(){
-    firebase.database().ref(roomName).push({
-      name:userName,
-      message:msg,
-      like:0
-    })
-  }
+  
 
   getData();
   function redirectToRoom(name) {

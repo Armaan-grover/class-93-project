@@ -110,3 +110,25 @@ label{
 	color:aliceblue;
 	
 }
+
+#holdingMssgsDiv{
+	background-color: darkgrey;
+	height: 300;
+	width: 500;
+	position: fixed;
+	margin-top: 30px;
+	border-radius: 20px;
+	margin-left: 250px;
+	margin-bottom: 100px;
+
+}
+#holdingInputDiv{
+	background-color: darkgrey;
+	height: 100;
+	width: 100%;
+	position: fixed;
+	margin-top: 500px;
+	border-radius: 20px;
+	text-align: center;
+	
+}
